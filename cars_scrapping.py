@@ -49,12 +49,19 @@ for i in range(1,int(total_pages_to_navigate)):
     for d in date:
         counter=counter+1
 
-    #printing interestinf Data
-    for i in range(counter):
-        print("i: ",i)
-        print(date[i].text,location[i].text,price[i].text,description[i].text,link[i].find("a").get("href")) #link[i].find("a").get("href") -- finds a href in a div class
-        print("total findings", count_findings)
-        count_findings= count_findings + 1
+    #printing and saving interesting Data
+    with open('cars.csv','a',newline='') as file:
+        pen=csv.writer(file)
+        print("test here-------")
+        for i in range(counter):
+            # print("i: ",i)
+            # print(date[i].text,location[i].text,price[i].text,description[i].text,link[i].find("a").get("href")) #link[i].find("a").get("href") -- finds a href in a div class
+            # print("total findings", count_findings)
+            count_findings= count_findings + 1
+            temp_list=[date[i].text,location[i].text,price[i].text,description[i].text,link[i].find("a").get("href")]
+            print(temp_list)
+            pen.writerow(temp_list)
+
 
 print("findings results: ",count_findings)
 #check the price because is not correct

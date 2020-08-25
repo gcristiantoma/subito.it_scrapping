@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c53d4a1-8258-4ee8-b02a-dc35a77f5cd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cars.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/house_scrapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prices_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars_scrapping.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.prices_test">
+  <component name="RunManager" selected="Python.cars_scrapping">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Subito.it" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,6 +72,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="cars_scrapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Subito.it" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cars_scrapping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="data_extraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Subito.it" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +101,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_extraction.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gcris\Documents\MEGA\MEGAsync\Programming\Python\Learning topics\Subito.it\house_scrapping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +120,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prices_test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gcris\Documents\MEGA\MEGAsync\Programming\Python\Learning topics\Subito.it\cars_scrapping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,9 +155,11 @@
       <item itemvalue="Python.data_extraction" />
       <item itemvalue="Python.span_test" />
       <item itemvalue="Python.prices_test" />
+      <item itemvalue="Python.cars_scrapping" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cars_scrapping" />
         <item itemvalue="Python.prices_test" />
         <item itemvalue="Python.data_extraction" />
         <item itemvalue="Python.span_test" />
@@ -155,7 +179,7 @@
       <updated>1598340032389</updated>
       <workItem from="1598340035812" duration="6198000" />
       <workItem from="1598349040208" duration="13573000" />
-      <workItem from="1598379644079" duration="2391000" />
+      <workItem from="1598379644079" duration="4542000" />
     </task>
     <servers />
   </component>
