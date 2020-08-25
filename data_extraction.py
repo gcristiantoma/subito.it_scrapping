@@ -50,7 +50,7 @@ for i in range(1,int(total_pages_to_navigate)):
         print(date[i].text,location[i].text,price[i].text,description[i].text,link[i].find("a").get("href")) #link[i].find("a").get("href") -- finds a href in a div class
 
 
-#check the price because is not correct
+
 
 
 
