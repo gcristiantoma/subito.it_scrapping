@@ -3,7 +3,9 @@ import requests
 import pandas as pd
 import csv
 
-url="https://www.subito.it/annunci-lombardia/affitto/camere-posti-letto/milano/milano/"
+# url="https://www.subito.it/annunci-lombardia/affitto/camere-posti-letto/milano/milano/"
+url="https://www.subito.it/annunci-lombardia/affitto/camere-posti-letto/milano/milano/?order=pricedesc"
+
 page=requests.get(url).text
 soup=BeautifulSoup(page,"lxml")
 
@@ -45,10 +47,14 @@ for i in range(1,int(total_pages_to_navigate)):
     for d in date:
         counter=counter+1
 
-    #printing interestinf Data
-    for i in range(counter):
-        print(date[i].text,location[i].text,price[i].text,description[i].text,link[i].find("a").get("href")) #link[i].find("a").get("href") -- finds a href in a div class
-
+    with open('houses.csv','a',newline='') as file:
+        pen=csv.writer(file)
+        lista_temp=[]
+        #printing interestinf Data
+        for i in range(counter):
+            print(date[i].text,location[i].text,price[i].text,description[i].text,link[i].find("a").get("href")) #link[i].find("a").get("href") -- finds a href in a div class
+            lista_temp=[date[i].text,location[i].text,price[i].text,description[i].text,link[i].find("a").get("href")]
+            pen.writerow(lista_temp)
 
 
 
