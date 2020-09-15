@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c53d4a1-8258-4ee8-b02a-dc35a77f5cd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/analisys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_all_pages_extract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_extract_1_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterators_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_csv_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analisys.py" beforeDir="false" afterPath="$PROJECT_DIR$/analisys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cars.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house_scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/house_scrapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars_scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars_scrapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house_scrapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/delete_house_scrapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houses.csv" beforeDir="false" afterPath="$PROJECT_DIR$/houses.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +32,11 @@
   <component name="ProjectId" id="1ga5nr1NFDuTb0Ru1dlKPKD2ki9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -49,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.house_scrapping">
+  <component name="RunManager" selected="Python.analisys">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Subito.it" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,6 +75,25 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="all_pages_extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Subito.it" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\gcris\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gcris\Documents\MEGA\MEGAsync\Programming\Python\Learning topics\Subito.it\final_all_pages_extract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -110,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_extraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="extract_1_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Subito.it" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +148,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\gcris\Documents\MEGA\MEGAsync\Programming\Python\Learning topics\Subito.it\house_scrapping.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gcris\Documents\MEGA\MEGAsync\Programming\Python\Learning topics\Subito.it\final_extract_1_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="house_scrapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="iterators_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Subito.it" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,26 +167,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/house_scrapping.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="prices_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Subito.it" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\gcris\Documents\MEGA\MEGAsync\Programming\Python\Learning topics\Subito.it\cars_scrapping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterators_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,19 +177,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.data_extraction" />
-      <item itemvalue="Python.prices_test" />
+      <item itemvalue="Python.extract_1_page" />
+      <item itemvalue="Python.all_pages_extract" />
+      <item itemvalue="Python.iterators_test" />
       <item itemvalue="Python.cars_scrapping" />
       <item itemvalue="Python.analisys" />
-      <item itemvalue="Python.house_scrapping" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.house_scrapping" />
         <item itemvalue="Python.analisys" />
         <item itemvalue="Python.cars_scrapping" />
-        <item itemvalue="Python.prices_test" />
-        <item itemvalue="Python.data_extraction" />
+        <item itemvalue="Python.all_pages_extract" />
+        <item itemvalue="Python.iterators_test" />
+        <item itemvalue="Python.extract_1_page" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +205,10 @@
       <updated>1598340032389</updated>
       <workItem from="1598340035812" duration="6198000" />
       <workItem from="1598349040208" duration="13573000" />
-      <workItem from="1598379644079" duration="8492000" />
+      <workItem from="1598379644079" duration="8886000" />
+      <workItem from="1598990674760" duration="45000" />
+      <workItem from="1600172997791" duration="1032000" />
+      <workItem from="1600174113508" duration="12082000" />
     </task>
     <servers />
   </component>
@@ -208,13 +220,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Subito_it$all_pages_extract.coverage" NAME="all_pages_extract Coverage Results" MODIFIED="1600184176001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Subito_it$data_extraction.coverage" NAME="data_extraction Coverage Results" MODIFIED="1598381202596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Subito_it$extract_1_page.coverage" NAME="extract_1_page Coverage Results" MODIFIED="1600176845263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Subito_it$house_scrapping.coverage" NAME="house_scrapping Coverage Results" MODIFIED="1600176212316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
